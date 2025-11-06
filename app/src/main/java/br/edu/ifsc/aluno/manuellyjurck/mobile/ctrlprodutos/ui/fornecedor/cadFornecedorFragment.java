@@ -12,10 +12,10 @@ import br.edu.ifsc.aluno.manuellyjurck.mobile.ctrlprodutos.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link CadFornecedoFragment#newInstance} factory method to
+ * Use the {@link cadFornecedorFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class CadFornecedoFragment extends Fragment {
+public class cadFornecedorFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class CadFornecedoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public CadFornecedoFragment() {
+    public cadFornecedorFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class CadFornecedoFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment CadFornecedoFragment.
+     * @return A new instance of fragment cadFornecedorFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static CadFornecedoFragment newInstance(String param1, String param2) {
-        CadFornecedoFragment fragment = new CadFornecedoFragment();
+    public static cadFornecedorFragment newInstance(String param1, String param2) {
+        cadFornecedorFragment fragment = new cadFornecedorFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class CadFornecedoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cad_fornecedo, container, false);
+        return inflater.inflate(R.layout.fragment_cad_fornecedor, container, false);
     }
 }

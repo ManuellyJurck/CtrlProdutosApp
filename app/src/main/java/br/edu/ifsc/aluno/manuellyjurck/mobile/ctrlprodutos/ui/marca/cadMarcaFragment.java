@@ -12,10 +12,10 @@ import br.edu.ifsc.aluno.manuellyjurck.mobile.ctrlprodutos.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link MarcaBlankFragment#newInstance} factory method to
+ * Use the {@link cadMarcaFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MarcaBlankFragment extends Fragment {
+public class cadMarcaFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class MarcaBlankFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public MarcaBlankFragment() {
+    public cadMarcaFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class MarcaBlankFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment MarcaBlankFragment.
+     * @return A new instance of fragment cadMarcaFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static MarcaBlankFragment newInstance(String param1, String param2) {
-        MarcaBlankFragment fragment = new MarcaBlankFragment();
+    public static cadMarcaFragment newInstance(String param1, String param2) {
+        cadMarcaFragment fragment = new cadMarcaFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class MarcaBlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_marca_blank, container, false);
+        return inflater.inflate(R.layout.fragment_cad_marca, container, false);
     }
 }
