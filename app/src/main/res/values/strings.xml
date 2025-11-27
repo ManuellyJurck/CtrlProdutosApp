@@ -16,6 +16,8 @@
     <string name="nome_produto">Nome Produto</string>
     <string name="_20">20</string>
     <string name="salvar">SALVAR</string>
+    <string name="disponivel">Disponivel</string>
+    <string name="s">s</string>
 
 
     <string-array name="lista_marcas">
