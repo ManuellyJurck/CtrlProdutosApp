@@ -27,4 +27,9 @@
         android:name="br.edu.ifsc.aluno.manuellyjurck.mobile.ctrlprodutos.ui.produto.CadProdutoFragment"
         android:label="@string/title_cad_produto"
         tools:layout="@layout/fragment_cad_produto" />
+    <fragment
+        android:id="@+id/navigation_con_produto"
+        android:name="br.edu.ifsc.aluno.manuellyjurck.mobile.ctrlprodutos.ui.produto.ConprodutoFragment"
+        android:label="@string/title_con_produto"
+        tools:layout="@layout/fragment_conproduto_list" />
 </navigation>
