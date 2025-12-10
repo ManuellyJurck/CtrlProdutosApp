@@ -89,7 +89,7 @@ public class ConprodutoFragment extends Fragment implements Response.ErrorListen
         try {
             jsonArrayReq = new JsonArrayRequest(
                     Request.Method.POST,
-                    "http://10.0.2.2/consultaMarca.php",
+                    "http://10.0.2.2/consultaProduto.php",
                     new JSONArray("[{}]"),
                     this, this);
         } catch (Exception e) {
